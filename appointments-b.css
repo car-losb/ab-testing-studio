@@ -77,6 +77,10 @@
     color: #868686;
 }
 
+.appointment-text {
+    color: rgb(144, 27, 27);
+}
+
 .appointment-title {
     font-size: 24px;
     font-family: 'PPNeueMontreal';
@@ -93,15 +97,15 @@
     flex-direction: column;
     gap: 10px;
     padding-left: 45%;
+}
 
 .defunct-button, .working-button {
-    background-color: #D4E8FF;
+    background-color: rgb(255, 225, 0);
     border: none;
     border-radius: 9px;
     width: 180px;
     height: 45px;
     color: white;
-}
 }
 
 .success-dialog {
